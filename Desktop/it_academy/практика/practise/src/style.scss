@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+body {
+  font-family: Roboto, sans-serif;
+}
+.myphoto {
+  width: 225px;
+}
+
+.sidebar-block {
+  background: #343a40;
+}
+p.name {
+  font-size: 25px;
+  font-weight: bold;
+  color: #5a938f;
+}
+ul.menu li a {
+  color: #5a938f;
+}
+
+ul.menu li img {
+  margin-left: -12px;
+  padding: 8px;
+}
+
+ul.menu li:hover {
+  background: green;
+  margin-right: -13px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas: "s c";
+  grid-template-rows: 12 fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.sidebar {
+  grid-area: s;
+}
+
+.content {
+  grid-area: c;
+}
+
+// .menu {
+//   list-style: none;
+//   display: inline-block;
+// }
+
+.background-photo img {
+  width: 100%;
+  float: right;
+  position: relative;
+  height: 100%;
+}
+
+span.home-info {
+  position: absolute;
+  margin-left: 306px;
+  margin-top: 131px;
+  color: #392818;
+}
+
+span.home-info h3,
+h5 {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+ul.menu {
+  list-style: none;
+  margin-top: 49px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+//contact
+
+img.contact-photo {
+  width: 100%;
+  height: 100%;
+}
+.contact h3 {
+  position: absolute;
+  z-index: 9;
+  padding: 26px;
+  font-size: 37px;
+}
+
+.col-4.left {
+  position: absolute;
+  top: 101px;
+}
+
+.card.text-white.bg-success.mb-3 {
+  width: 289px;
+  height: 108px;
+}
+
+.card-header {
+  margin: 0 auto;
+}
+.card-body {
+  margin: 0 auto;
+  font-size: 18px;
+  color: white;
+}
+
+.col-8.right {
+  position: absolute;
+  right: 238px;
+  top: 86px;
+  width: 420px;
+}
+
+input#exampleFormControlInput1 {
+  margin-top: 16px;
+  height: 56px;
+  background: #343a40;
+}
+
+textarea#exampleFormControlTextarea1 {
+  height: 140px;
+  background-color: #343a40;
+}
+
+h3.help {
+  margin-top: -67px;
+}
+//portfolio
+
+.portfolio-background {
+  width: 100%;
+  height: 100%;
+}
+
+//skills
+
+.skills-background {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+//aboutMe
+
+img.aboutMe-background {
+  width: 100%;
+  height: 100px;
+}
+
+.edu-info {
+  position: absolute;
+}
